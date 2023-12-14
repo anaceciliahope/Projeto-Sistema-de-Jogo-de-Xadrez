@@ -1,0 +1,15 @@
+package br.com.jogo.chess;
+
+import br.com.jogo.boardgame.Board;
+import br.com.jogo.boardgame.Piece;
+
+public class ChessPiece extends Piece {
+    private Color color;
+    public ChessPiece(Board board, Color color) {
+        super(board);
+        this.color = color;
+    }
+    public Color getColor() {
+        return color;
+    }
+}
